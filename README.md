@@ -50,13 +50,13 @@ Preview - [nextjs-antd-tailwind-ts](https://nextjs-antd-tailwind-ts.vercel.app/)
 
 6. Enter the home test code.
     ``` bash
-        import { Button, DatePicker, Typography, version } from 'antd';
+        import { Button, DatePicker, Typography } from 'antd';
         const { Title } = Typography;
 
         export default function Home() {
           return (
             <>
-              <Title level={2}>antd version: {version}</Title>
+              <Title level={2}>antd Typography</Title>
               <DatePicker />
               <Button type='primary' className='ml-2'>
                 Primary Button
