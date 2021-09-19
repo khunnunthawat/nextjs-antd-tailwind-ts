@@ -10,6 +10,8 @@ Preview - [nextjs-antd-tailwind-ts](https://nextjs-antd-tailwind-ts.vercel.app/)
     - cd {project-name}
     - touch tsconfig.json
     - npm install --save-dev typescript @types/react @types/node
+    - npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+    - npx tailwindcss init -p
     - npm install antd
     ```
     
